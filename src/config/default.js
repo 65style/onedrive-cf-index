@@ -17,19 +17,19 @@ const config = {
     sitePath: null
   },
 
-  refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
+  // refresh_token: REFRESH_TOKEN,
+  client_id: '5809a3ed-46ed-4983-9ad9-a8ec8abe0ec8',
   client_secret: CLIENT_SECRET,
 
   /**
    * Exactly the same `redirect_uri` in your Azure Application
    */
-  redirect_uri: 'http://localhost',
+  redirect_uri: 'http://localhost:53682',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
    */
-  base: '/Public',
+  base: '/OneIndex',
 
   /**
    * Feature: Pagination when a folder has multiple(>${top}) files
